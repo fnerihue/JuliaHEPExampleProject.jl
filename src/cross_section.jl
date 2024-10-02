@@ -1,8 +1,6 @@
-
-@inline function _rho(E,m) 
-    #
-    # FIXME: implement this!
-    #
+include (contants.jl
+@inline function _rho(E,m)
+    sqrt(E^2 -m«2)
 end
 
 """
@@ -47,9 +45,9 @@ julia> differential_cross_section(E_in, cos_theta)
 - Schwartz 2014: M.D. Schwartz, "Quantum Field Theory and the Standard Model", Cambridge University Press, New York (2014)
 """
 function differential_cross_section(E_in, cos_theta)
-    #
-    # FIXME: fill me in
-    #
+    C = (alpha^2)/(16 * (E_in^6))
+    C * (E_in^4 + _rho(E_in, electron_mass)
+    
 end
 
 """
