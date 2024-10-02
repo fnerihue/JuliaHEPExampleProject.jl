@@ -1,7 +1,7 @@
 # FIXME: implement the constants
 electron_mass = 0.51099895000
 muon_mass = 105.6583755
-alpha = 0.0072973525643(11)
+alpha = 0.0072973525643
 
 """
     ELECTRON_MASS
